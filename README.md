@@ -13,10 +13,6 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=E50914&center=true&vCenter=true&width=500&lines=Building+scalable+web+%26+mobile+apps;Clean+code+advocate;SOLID+principles+fanatic;Anime+%26+Fitness+enthusiast" alt="Typing SVG" /></a>
 </p>
 
-<div align="center">
-  <img src="https://github-readme-tech-stack.vercel.app/api/cards?title=My%20Tech%20Stack&lineCount=2&theme=radical&line1=react,next.js,typescript,tailwind&line2=node.js,express,mongodb,springboot&hide_border=true&title_color=E50914">
-</div>
-
 ---
 
 ## 🚀 Featured Projects

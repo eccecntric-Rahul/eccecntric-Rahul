@@ -13,6 +13,12 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=E50914&center=true&vCenter=true&width=500&lines=Building+scalable+web+%26+mobile+apps;Clean+code+advocate;SOLID+principles+fanatic;Anime+%26+Fitness+enthusiast" alt="Typing SVG" /></a>
 </p>
 
+# Skills
+ ![](https://img.shields.io/badge/Html-orange) ![](https://img.shields.io/badge/CSS-blue) ![](https://img.shields.io/badge/Javascript-yellow)
+ ![](https://img.shields.io/badge/React.JS-blue) ![](https://img.shields.io/badge/React-Native-blue) ![](https://img.shields.io/badge/MongoDb-lightgreen)
+ ![](https://img.shields.io/badge/Mongoose-green) ![](https://img.shields.io/badge/Cordova-yellow) ![](https://img.shields.io/badge/handlebars.js-orange)
+ ![](https://img.shields.io/badge/typescript-blue) ![](https://img.shields.io/badge/Express.js-lightyellow) ![](https://img.shields.io/badge/Sql-blue)
+ ![](https://img.shields.io/badge/Webpack-grey) ![](https://img.shields.io/badge/C++-blue) ![](https://img.shields.io/badge/C-yellow) ![](https://img.shields.io/badge/python-lightblue) ![](https://img.shields.io/badge/java-orange) ![](https://img.shields.io/badge/springboot-yellow)
 ---
 
 ## 🚀 Featured Projects

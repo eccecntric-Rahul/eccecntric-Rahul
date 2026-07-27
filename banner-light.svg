@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Rahul Kumar, Senior Full Stack Developer">
+  <defs>
+    <linearGradient id="lineFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0.00" stop-color="#BF7A00" stop-opacity="0"/>
+      <stop offset="0.42" stop-color="#BF7A00" stop-opacity="0.18"/>
+      <stop offset="1.00" stop-color="#BF7A00" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="areaFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#BF7A00" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#BF7A00" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="leftMask">
+      <rect width="1200" height="280" fill="url(#maskGrad)"/>
+    </mask>
+    <linearGradient id="maskGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0.00" stop-color="#000000"/>
+      <stop offset="0.45" stop-color="#404040"/>
+      <stop offset="1.00" stop-color="#ffffff"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="#F0F2F4" stroke-width="1"/>
+    </pattern>
+    <clipPath id="typeClip">
+      <rect x="58" y="96" width="0" height="62">
+        <animate attributeName="width" from="0" to="430" dur="1.15s"
+                 begin="0.35s" fill="freeze" calcMode="discrete"
+                 values="0;40;79;118;157;196;235;274;313;352;391;430"
+                 keyTimes="0;0.083;0.166;0.25;0.333;0.416;0.5;0.583;0.666;0.75;0.833;1"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="280" fill="#FFFFFF"/>
+  <rect width="1200" height="280" fill="url(#grid)"/>
+
+  <!-- self-drawing price line: FinTech vernacular, drawn once on load -->
+  <g mask="url(#leftMask)">
+    <path d="M0 231 L60 222 L120 236 L180 205 L240 214 L300 186 L360 193 L420 166 L480 175 L540 146 L600 157 L660 131 L720 140 L780 111 L840 123 L900 96 L960 107 L1020 82 L1080 89 L1140 64 L1200 71 L1200 280 L0 280 Z"
+          fill="url(#areaFade)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="1.1s" begin="1.9s" fill="freeze"/>
+    </path>
+    <path d="M0 231 L60 222 L120 236 L180 205 L240 214 L300 186 L360 193 L420 166 L480 175 L540 146 L600 157 L660 131 L720 140 L780 111 L840 123 L900 96 L960 107 L1020 82 L1080 89 L1140 64 L1200 71"
+          fill="none" stroke="url(#lineFade)" stroke-width="2.5"
+          stroke-linecap="round" stroke-linejoin="round"
+          stroke-dasharray="1300" stroke-dashoffset="1300">
+      <animate attributeName="stroke-dashoffset" from="1300" to="0" dur="2.1s"
+               begin="0.2s" fill="freeze" calcMode="spline"
+               keySplines="0.22 0.61 0.36 1" keyTimes="0;1"/>
+    </path>
+  </g>
+
+  <!-- live marker at the head of the line -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.2s" fill="freeze"/>
+    <circle cx="1140" cy="64" r="4" fill="#BF7A00"/>
+    <circle cx="1140" cy="64" r="4" fill="none" stroke="#BF7A00" stroke-width="1.5">
+      <animate attributeName="r" values="4;16" dur="2.2s" begin="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0" dur="2.2s" begin="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace">
+
+    <!-- prompt -->
+    <text x="60" y="62" font-size="14" fill="#BF7A00" letter-spacing="1.5" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.1s" fill="freeze"/>
+      rahul@github:~$ whoami
+    </text>
+
+    <!-- name, typed on -->
+    <g clip-path="url(#typeClip)">
+      <text x="58" y="145" font-size="52" font-weight="700" fill="#1F2328" letter-spacing="3">RAHUL KUMAR</text>
+    </g>
+
+    <!-- cursor tracks the typing, then blinks -->
+    <rect y="105" width="14" height="48" fill="#BF7A00">
+      <animate attributeName="x" dur="1.15s" begin="0.35s" fill="freeze" calcMode="discrete"
+               values="60;100;139;178;217;256;295;334;373;412;451;492"
+               keyTimes="0;0.083;0.166;0.25;0.333;0.416;0.5;0.583;0.666;0.75;0.833;1"/>
+      <animate attributeName="opacity" values="1;1;0;0;1" dur="1.1s" begin="1.6s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- role -->
+    <text x="60" y="186" font-size="16" fill="#59636E" letter-spacing="4.5" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="1.6s" fill="freeze"/>
+      SENIOR FULL STACK DEVELOPER
+    </text>
+
+    <!-- ticker -->
+    <text x="60" y="226" font-size="12.5" fill="#818B98" letter-spacing="2.5" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="2.0s" fill="freeze"/>
+      5+ YRS  ·  REACT NATIVE  ·  NEXT.JS  ·  MERN STACK  ·  MULTIPLE APPS IN PRODUCTION
+    </text>
+  </g>
+</svg>
